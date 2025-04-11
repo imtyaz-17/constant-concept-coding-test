@@ -9,26 +9,6 @@ A simple PHP web application with language switching functionality and AJAX form
 - Object-oriented PHP for handling responses
 - Responsive layout with header image
 
-## Setup
-
-1. Place the project files in your web server directory (e.g., Apache, Nginx)
-2. Add a header image named `header.jpg` to the project directory (maximum width 600px recommended)
-3. Access the application via your local server (e.g., http://localhost)
-
-## Usage
-
-- Access with language parameter: 
-  - English: `index.php?lang=en` or just `index.php` (default)
-  - Polish: `index.php?lang=pl`
-- Use the language toggle button to switch languages without reloading the page
-- Enter text in the form and submit to see the response displayed below
-
-## Files
-
-- `index.php` - Main application file with HTML, CSS, and JavaScript
-- `process.php` - Backend processor using OOP to handle form submissions
-- `header.jpg` - Header image (you need to add this)
-- `README.md` - This documentation file
 
 ## Requirements
 
