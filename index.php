@@ -129,15 +129,10 @@
                     userInput: userInput,
                     lang: currentLang
                 },
+                dataType: 'json',
                 success: function(response) {
-                    try {
-                        const data = JSON.parse(response);
-                        $('#result').html(t.response_prefix + data.userInput);
-                        $('#result').show();
-                    } catch (e) {
-                        $('#result').html(t.response_prefix + response);
-                        $('#result').show();
-                    }
+                    $('#result').html(t.response_prefix + response.userInput);
+                    $('#result').show();
                 },
                 error: function() {
                     alert('An error occurred');
