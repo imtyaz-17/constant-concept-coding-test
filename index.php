@@ -108,14 +108,14 @@
     // Language translations
     $translations = [
         'en' => [
-            'title' => 'Simple Form',
+            'title' => 'Name Form',
             'input_label' => 'Enter your name',
             'submit_button' => 'Submit',
             'switch_to' => 'Switch to Polish',
             'response_prefix' => 'Your input: '
         ],
         'pl' => [
-            'title' => 'Prosty Formularz',
+            'title' => 'Formularz nazwy',
             'input_label' => 'Wpisz swoje imię',
             'submit_button' => 'Wyślij',
             'switch_to' => 'Przełącz na angielski',
